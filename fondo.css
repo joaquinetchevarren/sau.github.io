@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url("sau.jpg.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logo-btn img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-options {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .menu-options li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-options a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilo para mostrar el menú desplegable al hacer clic en el botón */
+  nav:hover .menu-options {
+    display: block;
+  }
